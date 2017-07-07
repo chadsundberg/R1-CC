@@ -2,3 +2,24 @@
   max-width: 100%;
   height: auto;
 }
+
+.loremIpsum {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: local('PT Sans'), local('PTSans-Regular'), url(http://fonts.gstatic.com/s/ptsans/v8/oysROHFTu1eTZ74Hcf8V-VKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  display: inline-block;
+  border-right: 3px solid #000000;
+  padding: 25px;
+  margin-top: 10px;
+  line-height: 2em;
+  width: 48%;
+  float: left;
+}
+
+.formDiv {
+  display: inline-block;
+  padding: 50px 30px 50px 30px;
+  width: 48%;
+}
