@@ -41,40 +41,62 @@
     /*margin: 1rem;*/
   }
 
+  .banner {
+    width: 100%;
+  }
+
   .banner img {
-    max-width: 89%;
+    max-width: 97.5%;
     height: auto;
-    margin: 1rem 1rem 2rem 5rem;
+    margin: 1rem 5rem 2rem 5rem;
   }
 
   #middleDiv {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
     margin: 2rem 1rem 2rem 3.5rem;
   }
 
+.loremIpsum,
+.formDiv {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  text-align: center;
+}
+
 
   .loremIpsum {
+    text-align: left;
     font-family: 'PT Sans';
     font-weight: 400;
     font-style: normal;
     font-size: 1.75rem;
     src: local('PT Sans'), local('PTSans-Regular'), url(http://fonts.gstatic.com/s/ptsans/v8/oysROHFTu1eTZ74Hcf8V-VKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-    display: inline-block;
-    /*border-right: 3px solid #000000;*/
-    /*padding: 25px;*/
-    margin-right: 4.55rem;
+    /*margin-right: 4.55rem;*/
+    padding-right: 5rem;
     line-height: 2em;
-    width: 48%;
-    float: left;
   }
 
   .formDiv {
-    display: inline-block;
-    margin-top: .5rem;
-    /*margin-left: .5rem;*/
-    padding-left: 2rem;
-    width: 48%;
-    line-height: 2em;
+    /*display: inline-block;*/
+    /*margin-top: .5rem;*/
+    /*margin-left: 3rem;*/
+    /*margin-right: 0rem;*/
+    padding-left: 3rem;
+    /*width: 48%;*/
+    vertical-align: top;
+    line-height: 1.9em;
+
+  }
+
+  #formDisplay {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-style: 2px solid;
   }
 
   /*button {
