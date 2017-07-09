@@ -30,7 +30,7 @@ $(document).ready(function(){
       $("#formDisplay").append("<tr><td>Country:</td><td>"+user.country+"</td></tr>");
       $("#formDisplay").append("<tr><td>State:</td><td>"+user.state+"</td></tr>");
       $("#formDisplay").append("<tr><td>Additional Comments:</td><td>"+user.additionalComments+"</td></tr>");
-      $("#formDisplay").append("<button type='button' class='btn btn-danger' id='clearForm'>Clear Form</button>");
+      $("#formDisplay").append("<button type='button' class='btn btn-danger' id='clearData'>Delete</button>");
       $("td").addClass("col-xs-6");
     };
 
@@ -40,7 +40,7 @@ $(document).ready(function(){
       $("#clearForm").remove();
     };
 
-    $("#formDisplay").on('click', '#clearForm', function(){
+    $("#formDisplay").on('click', '#clearData', function(){
       $("#formDisplay").empty();
       // displayUserInfo(user);
     });
