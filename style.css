@@ -1,3 +1,7 @@
+body {
+  background-color: #e4dcce;
+}
+
  .rel1Logo {
    max-width: 25%;
    margin: 1rem 1rem 1rem 5rem;
@@ -10,12 +14,14 @@
  .banner {
    width: 100%;
    height: 100%;
+   /*background-color: #6b7b84;*/
  }
 
  .banner img {
    max-width: 97.5%;
    height: auto;
    margin: 1rem 5rem 1rem 5rem;
+   border: 1rem solid #6b7b84;
  }
 
  #middleDiv {
@@ -23,6 +29,8 @@
    table-layout: auto;
    width: 100%;
    margin: 1rem 1rem 1rem 3.5rem;
+   background-color: #f1f4f7;
+   padding: 1rem 1rem;
  }
 
 .loremIpsum,
@@ -31,7 +39,6 @@
  width: 50%;
  vertical-align: middle;
 }
-
 
  .loremIpsum {
    text-align: left;
@@ -49,7 +56,7 @@
  .formDiv {
    padding-left: 3rem;
    vertical-align: top;
-   line-height: 1.9em;
+   line-height: 1.3em;
  }
 
  #formDisplay {
